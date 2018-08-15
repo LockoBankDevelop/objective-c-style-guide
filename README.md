@@ -8,7 +8,7 @@ Here are some of the documents from Apple that informed the style guide. If some
 * [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [iOS App Programming Guide](http://developer.apple.com/library/ios/#documentation/iphone/conceptual/iphoneosprogrammingguide/Introduction/Introduction.html)
 
-## Table of Contents
+## Menu of Contents
 
 * [Dot Notation Syntax](#dot-notation-syntax)
 * [Spacing](#spacing)
@@ -34,6 +34,7 @@ Here are some of the documents from Apple that informed the style guide. If some
 * [Imports](#imports)
 * [Protocols](#protocols)
 * [Xcode Project](#xcode-project)
+* [Thanks](#thanks)
 
 ## Dot Notation Syntax
 
@@ -554,3 +555,7 @@ This helps disambiguate in cases when an object is the delegate for multiple sim
 The physical files should be kept in sync with the Xcode project files in order to avoid file sprawl. Any Xcode groups created should be reflected by folders in the filesystem. Code should be grouped not only by type, but also by feature for greater clarity.
 
 When possible, always turn on “Treat Warnings as Errors” in the target’s Build Settings and enable as many [additional warnings](http://boredzo.org/blog/archives/2009-11-07/warnings) as possible. If you need to ignore a specific warning, use [Clang’s pragma feature](http://clang.llvm.org/docs/UsersManual.html#controlling-diagnostics-via-pragmas).
+
+# Thanks
+
+Big thanks to DistilleryTech, NYTimes and their [Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide/) which was used as a base for this style guide.
